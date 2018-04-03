@@ -1,0 +1,64 @@
+.file {
+    float: left;
+    margin: 1.1em 0 0 0;
+  }
+  .file input[type="text"] {
+    width: 60%;
+    padding: 9px;
+    border: none;
+    font-size: 1.1em;
+    border: 1px solid #705e57;
+    font-weight: 600;
+    color: #705e57;
+    outline: none;
+    background: #fff;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .file a{
+      padding: 8px 20px;
+      background: #F7F7F7;
+      color: #272C2E;
+      font-size: 14px;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -o-border-radius: 3px;
+      -ms-border-radius: 3px;
+      text-decoration: none;
+  }
+  .file a:hover {
+    opacity: 0.8;
+  }
+  .file a:focus {
+      outline: none;
+  }
+  .signin{
+    float: left;
+    margin: 1.1em 0 0 1em;
+  }
+  .signin a{
+      padding: 8px 20px;
+      background: #21DEEF;
+      color: #FFF;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -o-border-radius: 3px;
+      -ms-border-radius: 3px;
+  }
+  .signin a:hover{
+      text-decoration:none;
+      color:#272C2E;
+      background:#F7F7F7;
+  }
+  .signin a:focus {
+      outline: none;
+  }
+  .fa-video{
+      color:black;
+      background-color:transparent; 
+  }
