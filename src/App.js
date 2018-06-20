@@ -24,7 +24,7 @@ class App extends Component{
 
     render(){
         return (
-            <BrowserRouter basename="https://vtechguys.github.io/Youtube-On-React/">
+            <BrowserRouter basename={"https://vtechguys.github.io/Youtube-On-React/"}>
                 <div id={this.state.appName}>
                     <Layout {...this.state}/>
                 </div>
