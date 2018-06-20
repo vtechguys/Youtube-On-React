@@ -24,7 +24,7 @@ class App extends Component{
 
     render(){
         return (
-            <BrowserRouter>
+            <BrowserRouter basename="http://vtechguys.github.io/">
                 <div id={this.state.appName}>
                     <Layout {...this.state}/>
                 </div>
